@@ -1,0 +1,8 @@
+db:
+  adapter: <%= ENV['DB_ADAPTER'] %>
+  # adapter: 'sqlite'
+  # adapter: 'postgres'
+  # adapter: 'mysql'
+  # adapter: 'mariadb'
+pagination:
+  page_size: 20
