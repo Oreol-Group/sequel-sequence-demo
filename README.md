@@ -63,7 +63,7 @@ $ touch data/sqlite/sequel_sequence_demo_test.sqlite3
 ```
 
 ## 2. Application environment setup
-Select DB_ADAPTER= in .env file
+Select DB_ADAPTER= in `.env` file
 
 Uncomment a string containing only one Gem for the selected database, corresponding to the DB_ADAPTER. Be careful, you can only make one choice at a time.
 ```ruby
@@ -78,8 +78,10 @@ Run:
 $ bundle install
 ```
 Add migrations 
+```bash
 $ rake dev_up  
 $ rake test_up 
+```
 
 Open console `bin/console` to get experience with `'sequel-sequence'` GEM API! 
 For example:
