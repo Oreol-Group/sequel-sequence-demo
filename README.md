@@ -62,7 +62,7 @@ $ touch data/sqlite/sequel_sequence_demo_development.sqlite3
 $ touch data/sqlite/sequel_sequence_demo_test.sqlite3
 ```
 
-## 2. Environment setup
+## 2. Application environment setup
 Select DB_ADAPTER= in .env file
 
 Uncomment a string containing only one Gem for the selected database, corresponding to the DB_ADAPTER. Be careful, you can only make one choice at a time.
